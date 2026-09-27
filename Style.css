@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Container{
+    background-color: #fff4d6;
+    color: black;
+
+    width: 600px;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    border-radius: 15px;
+}
+
+#Array{
+    display: flex;
+    gap: 10px;
+}
+
+.Box{
+    width: 60px;
+    height: 60px;
+
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FC6C26;
+    font-size: 35px;
+    background-color: #FFF4D6;
+    cursor: pointer;
+}
+
+#Target{
+    width: 140px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+#Buttons{
+    display: flex;
+    gap: 15px;
+}
+
+button{
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+button:hover{
+    background-color: #2D1B69;
+    transition: 0.5s;
+    color: azure;
+}
+
+#Result{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5B3DF5;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 38px;
+    color: #0057ff;
+}
